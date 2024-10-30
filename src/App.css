@@ -36,3 +36,16 @@
     transform: rotate(360deg);
   }
 }
+
+.row2{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.flex-1 textarea{
+  width: 32vw;
+  height: 45vh;
+}
+.output-screen{
+  height: 45vh;
+}
