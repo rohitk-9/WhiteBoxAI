@@ -1,6 +1,10 @@
 import React, { useState } from 'react';
 import { GoogleGenerativeAI } from '@google/generative-ai';
 import './componentStyle/AiStyle.css';
+// import DispOP from "./DispOP"
+// import ReactMarkdown from 'react-markdown'
+import Markdown from "markdown-to-jsx";
+
 function GeminiInReact() {
   const [inputValue, setInputValue] = useState('');
   const [promptResponses, setpromptResponses] = useState([]);
@@ -59,12 +63,14 @@ function GeminiInReact() {
     ) : (
       promptResponses.map((promptResponse, index) => (
         <div key={index} >
-          <div className={`response-text ${index === promptResponses.length - 1 ? 'fw-bold' : ''}`}>{promptResponse}</div>
+          <div className={`response-text ${index === promptResponses.length - 1 ? 'fw-bold' : ''}`}><Markdown>{promptResponse}</Markdown></div>
      {/* //the latest response shown in bold letters */}
         </div>
       ))
     )}
+    
   </div>
+  // <DispOP/>
   
   );
 
