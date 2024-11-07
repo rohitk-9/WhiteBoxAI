@@ -1,12 +1,12 @@
 import FrontendEditor from "./components/FrontendEditor";
 
-import Sidebar from "./components/Sidebar"
+import Sidebar1 from "./components/Sidebar";
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <Sidebar />
+      <Sidebar1 />
       <FrontendEditor/>
       
     </div>

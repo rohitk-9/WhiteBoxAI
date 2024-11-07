@@ -50,7 +50,7 @@ function GeminiInReact() {
         />
       </div>
       <div className="col-auto">
-        <button onClick={getResponseForGivenPrompt} className="btn btn-primary">Send</button>
+        <button onClick={getResponseForGivenPrompt} className="btn btn-primary send-btn">Send</button>
       </div>
     </div>
     {loading ? (
@@ -65,7 +65,9 @@ function GeminiInReact() {
         <div key={index} >
           <div className={`response-text ${index === promptResponses.length - 1 ? 'fw-bold' : ''}`}><Markdown>{promptResponse}</Markdown></div>
      {/* //the latest response shown in bold letters */}
+
         </div>
+        
       ))
     )}
     

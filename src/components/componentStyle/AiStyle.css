@@ -1,3 +1,26 @@
 .container{
     color: red;
+    text-align: left;
+    width: 80%;
+    height: 80%;
+    border: 2px solid;
+}
+.row{
+    display: flex;
+    width: 100%;
+}
+.col{
+    width: 80%;
+}
+.send-btn{
+    width: 100%;
+}
+.col-auto{
+    width: 30%;
+}
+.form-control{
+    width: 100%;
+}
+.response-text{
+    border: 1px solid whitesmoke;
 }
