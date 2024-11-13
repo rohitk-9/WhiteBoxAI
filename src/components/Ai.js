@@ -11,7 +11,7 @@ function GeminiInReact() {
   const [loading, setLoading] = useState(false);
   const genAI = new GoogleGenerativeAI(
     "AIzaSyDqmfim3pWSe2JsViIqMpacThNjgoiKP7E"
-// add your api key here  helloo
+// add your api key here test change test
   );
   const handleInputChange = (e) => {
     setInputValue(e.target.value);
