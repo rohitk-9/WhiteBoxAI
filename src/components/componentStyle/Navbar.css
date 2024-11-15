@@ -2,7 +2,21 @@ body {
 margin: 0;
 font-family: Arial, Helvetica, sans-serif;
 }
-
+.card{
+    height: 2cm;
+    /* border: 2px solid black; */
+    background-color: skyblue;
+    border-radius: none;
+}
+.p-button{
+    /* border: 1px solid black; */
+    height: 2cm;
+    color: black;
+    padding: 0 45%;
+    /* margin-top: 2px; */
+    padding-bottom: 0.5cm;
+    text-align: center;
+}
 .topnav {
 overflow: hidden;
 background-color: #333;
@@ -12,10 +26,17 @@ background-color: #333;
 float: left;
 color: #f2f2f2;
 text-align: center;
-padding: 14px 16px;
+height: 1cm;
 text-decoration: none;
 font-size: 17px;
 }
+.topnav a:not(:first-child){
+    padding: 14px 16px; 
+    color : red;
+    padding-bottom: 1cm;
+}
+
+
 
 .topnav a:hover {
 background-color: #ddd;
@@ -26,3 +47,22 @@ color: black;
 background-color: #04AA6D;
 color: white;
 }
+
+.extra{
+    background-color: red;
+    width: 30vw;
+    height: 100vh;
+    position: fixed;
+    z-index: 11;
+    margin-top: 1.5cm;
+    visibility: collapse;;
+}
+.topnav a{
+    width: 3cm;
+}
+.active:focus + .extra{
+    background-color: #04AA6D;
+    visibility: unset;
+}
+
+

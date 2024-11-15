@@ -27,6 +27,7 @@
     ]
   },
   "dependencies": {
+    "@google/generative-ai": "^0.21.0",
     "@monaco-editor/react": "^4.5.1",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^14.0.0",
@@ -34,8 +35,10 @@
     "autoprefixer": "^10.4.14",
     "axios": "^1.4.0",
     "dotenv": "^16.3.1",
+    "markdown-to-jsx": "^7.6.2",
     "monaco-themes": "^0.4.4",
     "postcss": "^8.4.24",
+    "primereact": "^10.8.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.10.1",

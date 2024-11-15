@@ -13,7 +13,7 @@ import OutputDetails from "./OutputDetails";
 import ThemeDropdown from "./ThemeDropdown";
 import LanguagesDropdown from "./LanguagesDropDown";
 import './componentStyle/Landing.css'
-// import Sidebar1 from "./Sidebar"
+import Sidebar from "./Sidebar"
 
 const javascriptDefault = 
 `// Write your C++ code here 
@@ -227,7 +227,6 @@ const Landing = () => {
             {outputDetails && <OutputDetails outputDetails={outputDetails} />}
           </div>
         </div>
-        {/* <Sidebar1 />  */}
       </>
     );
 };

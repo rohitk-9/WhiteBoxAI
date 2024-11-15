@@ -48,7 +48,7 @@ function App() {
   }
 
   return (
-    <div className="fixed inset-0 bg-gradient-to-r from-blue-50 to-blue-100">
+    <div className="fixed inset-0 bg-gradient-to-r from-blue-50 to-blue-100 aicomp">
       <div className="h-full max-w-4xl mx-auto flex flex-col p-3">
         {/* Fixed Header */}
         <header className="text-center py-4">
