@@ -1,15 +1,15 @@
-import FrontendEditor from "./components/FrontendEditor";
-
-import Sidebar1 from "./components/Sidebar";
-import './App.css';
+import React from 'react'
+import Landing from './components/Landing';
+import Footer from './components/Footer';
+import Navbar from './components/Navbar';
 
 function App() {
   return (
-    <div className="App">
-      <Sidebar1 />
-      <FrontendEditor/>
-      
-    </div>
+    <>
+      <Navbar /><br/>
+      <Landing />
+      {/* <Footer /> */}
+    </>
   );
 }
 
