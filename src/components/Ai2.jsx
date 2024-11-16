@@ -111,7 +111,7 @@ function App() {
           {generatingAnswer && (
             <div className="text-left">
               <div className="inline-block bg-gray-100 p-3 rounded-lg animate-pulse">
-                Thinking...
+                Typing...
               </div>
             </div>
           )}
