@@ -8,6 +8,7 @@ function App() {
   const [question, setQuestion] = useState("");
   const [answer, setAnswer] = useState("");
   const [generatingAnswer, setGeneratingAnswer] = useState(false);
+  const mykey = `https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent?key=`+process.env.API_KEY
 
   const chatContainerRef = useRef(null);
 
@@ -30,7 +31,7 @@ function App() {
     
     try {
       const response = await axios({
-        url: `https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent?key=`+process.env.API_KEY,
+        url: {mykey},
         method: "post",
         data: {
           contents: [{ parts: [{ text: question }] }],
