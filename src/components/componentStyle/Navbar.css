@@ -58,7 +58,7 @@ color: white;
     visibility: collapse;;
 }
 .topnav a{
-    width: 3cm;
+    width: 5cm;
 }
 .active:focus + .extra{
     background-color: #04AA6D;

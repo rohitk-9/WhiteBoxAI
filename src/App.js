@@ -6,7 +6,7 @@ import Navbar from './components/Navbar';
 function App() {
   return (
     <>
-      <Navbar /><br/>
+      <Navbar val ="Front-end Editor" /><br/>
       <Landing />
       {/* <Footer /> */}
     </>
