@@ -2,13 +2,14 @@ import { useState, useRef, useEffect } from "react";
 import "./componentStyle/Ai2.css";
 import axios from "axios";
 import ReactMarkdown from "react-markdown";
+import {config} from 'config.js';
 
 function App() {
   const [chatHistory, setChatHistory] = useState([]);
   const [question, setQuestion] = useState("");
   const [answer, setAnswer] = useState("");
   const [generatingAnswer, setGeneratingAnswer] = useState(false);
-  const mykey = `https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent?key=`+process.env.API_KEY
+  var mykey = config.MY_KEY;
 
   const chatContainerRef = useRef(null);
 
@@ -31,7 +32,7 @@ function App() {
     
     try {
       const response = await axios({
-        url: {mykey},
+        url: `https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent?key=`+mykey,
         method: "post",
         data: {
           contents: [{ parts: [{ text: question }] }],
