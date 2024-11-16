@@ -37,7 +37,7 @@
     "@testing-library/user-event": "^14.4.3",
     "autoprefixer": "^10.4.14",
     "axios": "^1.4.0",
-    "dotenv": "^16.3.1",
+    "dotenv": "^16.4.5",
     "gh-pages": "^6.2.0",
     "markdown-to-jsx": "^7.6.2",
     "monaco-themes": "^0.4.4",

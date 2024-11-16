@@ -30,7 +30,7 @@ function App() {
     
     try {
       const response = await axios({
-        url: `https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent?key=`,
+        url: `https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent?key=`+process.env.API_KEY,
         method: "post",
         data: {
           contents: [{ parts: [{ text: question }] }],
