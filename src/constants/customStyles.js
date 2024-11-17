@@ -1,5 +1,5 @@
 const buttonColor = "#FFF";
-const buttonHover = "#e7e7e7";
+// const buttonHover = "#e7e7e7";
 const primaryColor = '#4169e1'
 const fontColor = '#000';
 const borderRadius = "10px";

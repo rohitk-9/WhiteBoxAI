@@ -2,16 +2,16 @@ import { useState, useRef, useEffect } from "react";
 import "./componentStyle/Ai2.css";
 import axios from "axios";
 import ReactMarkdown from "react-markdown";
-import {config} from 'config.js';
+// const dotenv = require('dotenv');
+// dotenv.config(); 
 
 function App() {
   const [chatHistory, setChatHistory] = useState([]);
-  const [question, setQuestion] = useState("");
-  const [answer, setAnswer] = useState("");
+  const [question, setQuestion] = useState("");   // eslint-disable-next-line 
+  const [answer, setAnswer] = useState("");       // eslint-disable-next-line 
   const [generatingAnswer, setGeneratingAnswer] = useState(false);
-  var mykey = config.MY_KEY;
-
   const chatContainerRef = useRef(null);
+  const apiKey = process.env.REACT_APP_API_KEY;
 
   useEffect(() => {
     if (chatContainerRef.current) {
@@ -32,7 +32,7 @@ function App() {
     
     try {
       const response = await axios({
-        url: `https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent?key=`+mykey,
+        url: `https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent?key=${apiKey}`,
         method: "post",
         data: {
           contents: [{ parts: [{ text: question }] }],

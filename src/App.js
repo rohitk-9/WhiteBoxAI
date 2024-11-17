@@ -1,8 +1,8 @@
-import React from 'react'
+import React from 'react';
 import Landing from './components/Landing';
 import Navbar from './components/Navbar';
 import { Route,Routes } from 'react-router-dom';
-import FrontendEditor from "./components/FrontendEditor"
+import FrontendEditor from "./components/FrontendEditor";
 
 function App() {
   return (
@@ -10,8 +10,9 @@ function App() {
       <Navbar val ="Front-end Editor" /><br/>
         <div>
           <Routes>    
-            <Route path="/"  element={<Landing/>} />    
-            <Route path="/components/FrontendEditor"  element={<FrontendEditor/>} />
+            <Route path="/WhiteBoxAI" element={<Landing/>} />    
+            <Route path="*" element={<Landing />} />
+            <Route path="/FrontendEditor"  element={<FrontendEditor/>} />
           </Routes>
       </div>
 

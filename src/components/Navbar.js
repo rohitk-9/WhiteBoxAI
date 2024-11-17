@@ -8,10 +8,10 @@ import Sidebar from "./Sidebar"
 export default function Navbar(props) {
   return (
 <>
-<div class="topnav">
-  <a class="active" href="#home" ><Sidebar /></a>
-  <Link to="/">Online code Editor</Link>
-  <Link to="/components/FrontendEditor"><span id = "nav-txt"> FrontendEditor</span></Link>
+<div className="topnav">
+  <a className="active" href="#home" ><Sidebar /></a>
+  <Link to="/WhiteBoxAI">Online code Editor</Link>
+  <Link to="/FrontendEditor"> FrontendEditor</Link>
 </div>
 </>
   )

@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import CodeEditorWindow from "./CodeEditorWindow";
 import axios from "axios";
-import { classnames } from "../utils/general";
+// import { classnames } from "../utils/general";
 import { languageOptions } from "../constants/languageOptions";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
@@ -13,7 +13,7 @@ import OutputDetails from "./OutputDetails";
 import ThemeDropdown from "./ThemeDropdown";
 import LanguagesDropdown from "./LanguagesDropDown";
 import './componentStyle/Landing.css'
-import Sidebar from "./Sidebar"
+// import Sidebar from "./Sidebar"
 
 const javascriptDefault = 
 `// Write your C++ code here 
