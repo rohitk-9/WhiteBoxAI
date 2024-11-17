@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/WhiteBoxAI/static/css/main.7655b841.css",
-    "main.js": "/WhiteBoxAI/static/js/main.6314b368.js",
+    "main.css": "/WhiteBoxAI/static/css/main.4dea396c.css",
+    "main.js": "/WhiteBoxAI/static/js/main.229cde42.js",
     "static/js/266.35a8ea55.chunk.js": "/WhiteBoxAI/static/js/266.35a8ea55.chunk.js",
     "static/js/4450.5c5ba3f2.chunk.js": "/WhiteBoxAI/static/js/4450.5c5ba3f2.chunk.js",
     "static/js/8849.97d994fb.chunk.js": "/WhiteBoxAI/static/js/8849.97d994fb.chunk.js",
@@ -40,7 +40,7 @@
     "static/js/6116.c5769292.chunk.js": "/WhiteBoxAI/static/js/6116.c5769292.chunk.js",
     "static/js/5008.8c3eee86.chunk.js": "/WhiteBoxAI/static/js/5008.8c3eee86.chunk.js",
     "static/js/440.a7544446.chunk.js": "/WhiteBoxAI/static/js/440.a7544446.chunk.js",
-    "static/js/8018.91c68066.chunk.js": "/WhiteBoxAI/static/js/8018.91c68066.chunk.js",
+    "static/js/8018.823845cf.chunk.js": "/WhiteBoxAI/static/js/8018.823845cf.chunk.js",
     "static/js/5824.6539e04a.chunk.js": "/WhiteBoxAI/static/js/5824.6539e04a.chunk.js",
     "static/js/1150.7eec7d39.chunk.js": "/WhiteBoxAI/static/js/1150.7eec7d39.chunk.js",
     "static/js/8762.5b632f89.chunk.js": "/WhiteBoxAI/static/js/8762.5b632f89.chunk.js",
@@ -57,11 +57,11 @@
     "static/js/9633.d7512933.chunk.js": "/WhiteBoxAI/static/js/9633.d7512933.chunk.js",
     "static/js/5729.c4f236bb.chunk.js": "/WhiteBoxAI/static/js/5729.c4f236bb.chunk.js",
     "index.html": "/WhiteBoxAI/index.html",
-    "main.7655b841.css.map": "/WhiteBoxAI/static/css/main.7655b841.css.map",
-    "main.6314b368.js.map": "/WhiteBoxAI/static/js/main.6314b368.js.map"
+    "main.4dea396c.css.map": "/WhiteBoxAI/static/css/main.4dea396c.css.map",
+    "main.229cde42.js.map": "/WhiteBoxAI/static/js/main.229cde42.js.map"
   },
   "entrypoints": [
-    "static/css/main.7655b841.css",
-    "static/js/main.6314b368.js"
+    "static/css/main.4dea396c.css",
+    "static/js/main.229cde42.js"
   ]
 }
