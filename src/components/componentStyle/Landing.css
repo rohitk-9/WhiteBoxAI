@@ -1,3 +1,11 @@
-.test{
-    color: hotpink;
+.view-lines{
+    padding-left: 5px;
+}
+.margin-view-overlays{
+    border-right: 1px solid rgba(0, 0, 0, 0.178);
+}
+.metrics-container{
+    border: 2px solid;
+    border-radius: 5px;
+    padding: 8px;
 }

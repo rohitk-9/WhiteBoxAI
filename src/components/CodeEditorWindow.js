@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Editor from "@monaco-editor/react";
+import './componentStyle/Landing.css'
 
 const CodeEditorWindow = ({ onChange, language, code, theme }) => {
     const [value, setValue] = useState(code || "");

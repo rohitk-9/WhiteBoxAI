@@ -1,0 +1,31 @@
+:root{--text: #061b2d;
+    --background: #ffffff;
+    --primary: #e649a1;
+    --secondary: #a357f7;
+    --accent: #3d81f6;
+    --linearPrimarySecondary: linear-gradient(#e649a1, #a357f7);
+--linearPrimaryAccent: linear-gradient(#e649a1, #3d81f6);
+--linearSecondaryAccent: linear-gradient(#a357f7, #3d81f6);
+--radialPrimarySecondary: radial-gradient(#e649a1, #a357f7);
+--radialPrimaryAccent: radial-gradient(#e649a1, #3d81f6);
+--radialSecondaryAccent: radial-gradient(#a357f7, #3d81f6);
+    }
+.App{
+    background-color: var(--background);
+}
+.topnav{
+    background-color: var(--background);
+    border-bottom: 1px solid #e649a271;
+}
+.SidebarBtn{
+    background: #e2cafc;
+    transition: all 1s ease;
+    border: none;
+    font-size: 22px;
+    font-weight: bolder;
+    background: linear-gradient(to right, #3d81f6 , #e649a2);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}

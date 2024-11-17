@@ -50,7 +50,7 @@ function App() {
   }
 
   return (
-    <div className="fixed inset-0 bg-gradient-to-r from-blue-50 to-blue-100 aicomp">
+    <div className="fixed inset-0 bg-gradient-to-r from-purple-50 to-purple-100 aicomp">
       <div className="h-full max-w-4xl mx-auto flex flex-col p-3">
         {/* Fixed Header */}
         <header className="text-center py-4">
@@ -58,7 +58,7 @@ function App() {
              target="_blank" 
              rel="noopener noreferrer"
              className="block">
-            <h1 className="text-4xl font-bold text-blue-500 hover:text-blue-600 transition-colors">
+            <h1 className="text-4xl font-bold text-purple-500 hover:text-purple-600 transition-colors">
               Chat AI
             </h1>
           </span>
@@ -72,22 +72,22 @@ function App() {
           {chatHistory.length === 0 ? (
             <div className="h-full flex flex-col items-center justify-center text-center p-6">
               <div className="bg-blue-50 rounded-xl p-8 max-w-2xl">
-                <h2 className="text-2xl font-bold text-blue-600 mb-4">Welcome to Chat AI! 👋</h2>
+                <h2 className="text-2xl font-bold text-purple-600 mb-4">Welcome to Chat AI! 👋</h2>
                 <p className="text-gray-600 mb-4">
                   I'm here to help you with anything you'd like to know. You can ask me about:
                 </p>
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-left">
-                  <div className="bg-white p-4 rounded-lg shadow-sm">
-                    <span className="text-blue-500">💡</span> General knowledge
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-left text-purple-500">
+                  <div className="bg-white p-4 rounded-lg shadow-sm ">
+                    <span className="text-purple-500">💡</span> General knowledge
                   </div>
                   <div className="bg-white p-4 rounded-lg shadow-sm">
-                    <span className="text-blue-500">🔧</span> Technical questions
+                    <span className="text-purple-500">🔧</span> Technical questions
                   </div>
                   <div className="bg-white p-4 rounded-lg shadow-sm">
-                    <span className="text-blue-500">📝</span> Writing assistance
+                    <span className="text-purple-500">📝</span> Writing assistance
                   </div>
                   <div className="bg-white p-4 rounded-lg shadow-sm">
-                    <span className="text-blue-500">🤔</span> Problem solving
+                    <span className="text-purple-500">🤔</span> Problem solving
                   </div>
                 </div>
                 <p className="text-gray-500 mt-6 text-sm">
@@ -101,7 +101,7 @@ function App() {
                 <div key={index} className={`mb-4 ${chat.type === 'question' ? 'text-right' : 'text-left'}`}>
                   <div className={`inline-block max-w-[80%] p-3 rounded-lg overflow-auto hide-scrollbar ${
                     chat.type === 'question' 
-                      ? 'bg-blue-500 text-white rounded-br-none'
+                      ? 'bg-purple-500 text-white rounded-br-none'
                       : 'bg-gray-100 text-gray-800 rounded-bl-none'
                   }`}>
                     <ReactMarkdown className="overflow-auto hide-scrollbar">{chat.content}</ReactMarkdown>
@@ -124,7 +124,7 @@ function App() {
           <div className="flex gap-2">
             <textarea
               required
-              className="flex-1 border border-gray-300 rounded p-3 focus:border-blue-400 focus:ring-1 focus:ring-blue-400 resize-none"
+              className="flex-1 border border-gray-300 rounded p-3 focus:border-purple-400 focus:ring-1 focus:ring-purple-400 resize-none text-black"
               value={question}
               onChange={(e) => setQuestion(e.target.value)}
               placeholder="Ask anything..."
@@ -138,7 +138,7 @@ function App() {
             ></textarea>
             <button
               type="submit"
-              className={`px-6 py-2 bg-blue-500 text-white rounded-md hover:bg-blue-600 transition-colors ${
+              className={`px-6 py-2 bg-purple-500 text-white rounded-md hover:bg-purple-600 transition-colors ${
                 generatingAnswer ? 'opacity-50 cursor-not-allowed' : ''
               }`}
               disabled={generatingAnswer}

@@ -219,7 +219,7 @@ const Landing = () => {
               <button
                 onClick={handleCompile}
                 disabled={!code}
-                className="bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 text-white font-semibold hover:text-black mt-2 py-2 px-4 border border-blue-500 hover:border-transparent rounded w-full"
+                className="bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 text-white font-semibold hover:text-black mt-3 py-2 px-4 border border-blue-500 hover:border-transparent rounded w-full"
               >
                 {processing ? "Processing..." : "Compile and Execute"}
               </button>
