@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/WhiteBoxAI/static/css/main.7655b841.css",
-    "main.js": "/WhiteBoxAI/static/js/main.7241971b.js",
+    "main.js": "/WhiteBoxAI/static/js/main.6314b368.js",
     "static/js/266.35a8ea55.chunk.js": "/WhiteBoxAI/static/js/266.35a8ea55.chunk.js",
     "static/js/4450.5c5ba3f2.chunk.js": "/WhiteBoxAI/static/js/4450.5c5ba3f2.chunk.js",
     "static/js/8849.97d994fb.chunk.js": "/WhiteBoxAI/static/js/8849.97d994fb.chunk.js",
@@ -58,10 +58,10 @@
     "static/js/5729.c4f236bb.chunk.js": "/WhiteBoxAI/static/js/5729.c4f236bb.chunk.js",
     "index.html": "/WhiteBoxAI/index.html",
     "main.7655b841.css.map": "/WhiteBoxAI/static/css/main.7655b841.css.map",
-    "main.7241971b.js.map": "/WhiteBoxAI/static/js/main.7241971b.js.map"
+    "main.6314b368.js.map": "/WhiteBoxAI/static/js/main.6314b368.js.map"
   },
   "entrypoints": [
     "static/css/main.7655b841.css",
-    "static/js/main.7241971b.js"
+    "static/js/main.6314b368.js"
   ]
 }
